@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor Project</title>
+    <script src="newscript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="result"></div>
-    <script src="script.js"></script>
+    <div class="heading">
+        
+        <marquee direction="right" class="center">Rock Paper Scissor</marquee>
+    </div>
+    <div class="content">
+        Start the Game: 
+    </div>
+    <div class="buttons">    
+        <button id="rock" class="userInput">Rock</button>
+        <button id="paper" class="userInput">Paper</button>
+        <button id="scissor" class="userInput">Scissor</button>
+    </div>
+
+    <div class="results">
+        <div class="playerBlock">
+            <span> Player Result:</span>
+            <span class="playerResult"> </span>
+        </div>
+
+        <div class="computerBlock">
+            <span>Computer Result:</span>
+            <span class="computerResult"> </span>
+        </div>
+        
+        
+    </div>
+
+    <div class="resetbtn">
+        <button class="refresh-button" type="reset">Reset</button>
+    </div>
+
+    
+    
+    
     
 </body>
 </html>
